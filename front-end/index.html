@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <div>minetech</div>
+       
+      </nav>
+      <main>
+        <div class="form_container">
+          <h1>Sign Up</h1> <br>
+       
+          <p>Account Details</p>
+          <hr />
+          <br>
+
+          <form>
+          
+              <label>Email ID </label>
+              <div>
+                <input type="text" />
+            
+            </div>
+            <div>
+              <label>Create new password </label>
+              <div><input type="password" /><br /></div>
+              <label for="phone">Enter a phone number:</label><br />
+              <input type="tel" /><br /><br />
+
+             
+              <label for="cci">Credit Card info:</label>
+              <br/>
+              <input
+                id="cci"
+                type="tel"
+                inputmode="numeric"
+                pattern="[0-9\s]{13,19}"
+                autocomplete="cc-number"
+                maxlength="19"
+                placeholder="xxxx xxxx xxxx xxxx"
+              />
+              <br/>
+              <br>
+               <input type="submit" class='submit'/>
+               <br/> <br>
+           <div class="flex signin"><p>Alredy have an account?</p>
+  <a href="">sign in!</a></div>  
+  
+            </div>
+          </form>
+        </div>
+      </main>
+
+    </div>
+  </body>
+</html>
